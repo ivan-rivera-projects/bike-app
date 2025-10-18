@@ -51,8 +51,7 @@ function App() {
         <Services />
         <div className="footer">
           <p>
-            © {new Date().getFullYear()}, Amazon Web Services, Inc. or its
-            Affiliates. All rights reserved.
+            © {new Date().getFullYear()}, We Are Little Giants. All rights reserved.
           </p>
         </div>
       </div>
