@@ -36,10 +36,11 @@ const Sidebar = ({ setBannerColor }) => {
         </p>
       </div>
       <div className="map-img-div">
-        <img src={mapImage} alt="" width={"130px"} />
+        <img src={mapImage} alt="Store location map" width={"130px"} />
         <a
           href="https://www.openstreetmap.org/search?query=nyc"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Get directions
         </a>
@@ -47,13 +48,13 @@ const Sidebar = ({ setBannerColor }) => {
       <div className="about-us" id="about-us">
         <h2>About Us</h2>
         <p>
-          AnyCompany was founded by a group of friends who share a passion for
+          We Are Little Giants was founded by a group of friends who share a passion for
           bicycling and they all agree that it is always a great day to bike!
         </p>
-        <img src={bikingOutdoorsImage} alt="" />
+        <img src={bikingOutdoorsImage} alt="People biking outdoors" />
         <div className="buttons">
-          <button className="light-banner-btn" onClick={() => handleColorClick('dark')}>Dark Banner</button>
-          <button className="light-banner-btn" onClick={() => handleColorClick('light')}>Light Banner</button>
+          <button onClick={() => handleColorClick('dark')}>Dark Theme</button>
+          <button onClick={() => handleColorClick('light')}>Light Theme</button>
         </div>
       </div>
     </div>

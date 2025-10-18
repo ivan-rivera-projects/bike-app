@@ -1,5 +1,5 @@
 const Products = () => {
-  var company_name="AnyCompany";
+  var company_name="We Are Little Giants";
   return (
     <div className="products" id="products-link">
       <h2>Products</h2>

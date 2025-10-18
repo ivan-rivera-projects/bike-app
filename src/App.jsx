@@ -33,8 +33,8 @@ function App() {
       <div className="App">
         <nav>
           <div className={`banner banner-${bannerColor}`}>
-            <img src={getImageSource(bannerColor === 'dark' ? 'logo-black.png' : 'logo-white.png')} alt="" />
-            <h1>AnyCompany bicycle parts</h1>
+            <img src={getImageSource(bannerColor === 'dark' ? 'logo-black.png' : 'logo-white.png')} alt="We Are Little Giants logo" />
+            <h1>We Are Little Giants bicycle parts</h1>
           </div>
         </nav>
         <div className="nav-menu">

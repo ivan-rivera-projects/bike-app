@@ -14,7 +14,7 @@ const Services = () => {
       <h2>Services</h2>
       <div className="services-row">
         <div className="services-img">
-          <img src={repairImage} alt="" />
+          <img src={repairImage} alt="Bicycle repair service" />
         </div>
         <div className="services-text">
           <p>
@@ -46,7 +46,7 @@ const Services = () => {
           </p>
         </div>
         <div className="services-cert">
-          <img src={specialistImage} alt="" />
+          <img src={specialistImage} alt="Certified bicycle specialist" />
         </div>
       </div>
     </div>
